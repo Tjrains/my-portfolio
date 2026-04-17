@@ -4,11 +4,10 @@
   margin: 0 auto;
 }
 
-/* Title + intro */
 .blog-page h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #bF4342; /* matches your section headers */
+  color: #bF4342;
 }
 
 .blog-subtitle {
@@ -16,14 +15,12 @@
   color: #555;
 }
 
-/* Grid layout */
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.8rem;
 }
 
-/* Card styling */
 .blog-card {
   background: #fff;
   border-radius: 8px;
@@ -32,23 +29,20 @@
   transition: all 0.2s ease;
 }
 
-/* Hover matches project cards */
 .blog-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Image */
 .blog-card img {
   width: 100%;
   height: 220px;
   object-fit: cover;
 }
 
-/* Content */
 .blog-card h3 {
   margin: 1rem 1rem 0.4rem;
-  color: #8C1C13; /* darker accent like project titles */
+  color: #8C1C13;
 }
 
 .blog-card p {
@@ -57,7 +51,6 @@
   font-size: 0.95rem;
 }
 
-/* Optional: accent bar like your old blog-post */
 .blog-card::before {
   content: "";
   display: block;

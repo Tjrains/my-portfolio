@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
-import heroImage from "../assets/hero.jpg"; // change if you want another image
+import heroImage from "../assets/hero.jpg";
 
 function Home() {
   const location = useLocation();

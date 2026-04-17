@@ -1,0 +1,114 @@
+.blog-page {
+  padding: 4rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Title + intro */
+.blog-page h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #bF4342; /* matches your section headers */
+}
+
+.blog-subtitle {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* Grid layout */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.8rem;
+}
+
+/* Card styling */
+.blog-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  transition: all 0.2s ease;
+}
+
+/* Hover matches project cards */
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Image */
+.blog-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Content */
+.blog-card h3 {
+  margin: 1rem 1rem 0.4rem;
+  color: #8C1C13; /* darker accent like project titles */
+}
+
+.blog-card p {
+  margin: 0 1rem 1.2rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Optional: accent bar like your old blog-post */
+.blog-card::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: #bF4342;
+}
+.blog-image-link {
+  display: block;
+}
+
+.blog-image-link img {
+  transition: transform 0.2s ease;
+}
+
+.blog-image-link:hover img {
+  transform: scale(1.02);
+}
+
+.blog-post-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.blog-post-page h1 {
+  color: #bF4342;
+  margin-bottom: 1.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #8C1C13;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  color: #bF4342;
+}
+
+.blog-post-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.blog-post-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}

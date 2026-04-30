@@ -76,10 +76,11 @@ body {
 }
 
 .project-card {
-  border: 1px solid #ffffff;
-  border-radius: 8px;
-  padding: 1.5rem;
-  transition: box-shadow 0.2s;
+  background: #ffffff; /* 👈 make cards white */
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
 }
 
 .project-card:hover {

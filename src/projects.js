@@ -1,6 +1,6 @@
-import portfolioImg from "./assets/BCanyon.jpg";
-import draftBotsImg from "./assets/DeathValley.jpg";
-import soccerBotImg from "./assets/GCanyon.jpg";
+import portfolioImg from "./assets/Website.png";
+import draftBotsImg from "./assets/Draftbots.png";
+import soccerBotImg from "./assets/SNAIL.jpg";
 
 export const projects = [
   {

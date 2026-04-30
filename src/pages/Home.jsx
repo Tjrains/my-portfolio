@@ -60,6 +60,10 @@ function Home() {
             <p>
               I’m a student learning web development. I love building things with code
               and exploring new technologies. Currently studying at Cal State San Marcos.
+              I’m a student learning web development. I love building things with code
+              and exploring new technologies. Currently studying at Cal State San Marcos.
+              I’m a student learning web development. I love building things with code
+              and exploring new technologies. Currently studying at Cal State San Marcos.
             </p>
           </div>
         </div>

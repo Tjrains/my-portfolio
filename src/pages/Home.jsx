@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { projects } from "../projects";
 import heroImage from "../assets/hero.jpg";
+import aboutImage from "../assets/Bishop.jpg";
 
 function Home() {
   const location = useLocation();
@@ -47,17 +48,24 @@ function Home() {
         </div>
       </section>
 
-      <section id="about" className="section">
-        <h2>About Me</h2>
-        <p>
-          I’m a student learning web development. I love building things with
-          code and exploring new technologies. Currently studying at Cal State
-          San Marcos.
-        </p>
+      <section id="about" className="about-section">
+        <div className="about-image-wrap">
+          <img src={aboutImage} alt="Mountain landscape" className="about-image" />
+        </div>
+
+        <div className="about-card">
+          <h2>About Me</h2>
+          <div className="section-divider"></div>
+          <p>
+            I’m a student learning web development. I love building things with code
+            and exploring new technologies. Currently studying at Cal State San Marcos.
+          </p>
+        </div>
       </section>
 
       <section id="projects" className="section projects-section">
         <h2>Projects</h2>
+        <div className="section-divider"></div>
 
         <div className="projects-grid">
           {projects.map((project) => (

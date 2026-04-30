@@ -91,20 +91,32 @@ function Home() {
         </div>
       </section>
 
-      <section id="contact" className="section">
+      <section id="contact" className="section contact-section">
         <h2>Contact</h2>
+        <div className="section-divider"></div>
+
+        <p className="contact-subtext">
+          Feel free to reach out — I’m always open to new opportunities and projects.
+        </p>
+
         <div className="contact-links">
-          <a href="mailto:tjrains2003@gmail.com" className="contact-btn">
-            Email Me
+          <a href="mailto:tjrains2003@gmail.com" className="contact-card">
+            <div>
+              <h3>Email Me</h3>
+              <p>tjrains2003@gmail.com</p>
+            </div>
           </a>
 
           <a
             href="https://github.com/Tjrains"
             target="_blank"
             rel="noopener noreferrer"
-            className="contact-btn outline"
+            className="contact-card"
           >
-            GitHub
+            <div>
+              <h3>GitHub</h3>
+              <p>github.com/Tjrains</p>
+            </div>
           </a>
         </div>
       </section>

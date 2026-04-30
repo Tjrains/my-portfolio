@@ -292,6 +292,67 @@ body {
   line-height: 1.8;
 }
 
+.contact-section {
+  max-width: 1100px;
+}
+
+.contact-subtext {
+  margin-bottom: 2rem;
+  color: #735751;
+}
+
+/* Layout */
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Card style */
+.contact-card {
+  flex: 1;
+  min-width: 240px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 1.5rem;
+  border-radius: 14px;
+  background: #f7f3ee;
+  border: 1px solid rgba(191, 67, 66, 0.2);
+
+  text-decoration: none;
+  color: inherit;
+
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  border-color: #bF4342;
+}
+
+/* Text */
+.contact-card h3 {
+  margin: 0;
+  color: #bF4342;
+}
+
+.contact-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .contact-links {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 800px) {
   .about-section {
     margin: 2rem 1rem;

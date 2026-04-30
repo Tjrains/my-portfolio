@@ -60,10 +60,6 @@ function Home() {
             <p>
               I’m a student learning web development. I love building things with code
               and exploring new technologies. Currently studying at Cal State San Marcos.
-              I’m a student learning web development. I love building things with code
-              and exploring new technologies. Currently studying at Cal State San Marcos.
-              I’m a student learning web development. I love building things with code
-              and exploring new technologies. Currently studying at Cal State San Marcos.
             </p>
           </div>
         </div>
@@ -97,8 +93,20 @@ function Home() {
 
       <section id="contact" className="section">
         <h2>Contact</h2>
-        <p>Email: tjrains2003@gmail.com</p>
-        <p>GitHub: github.com/Tjrains</p>
+        <div className="contact-links">
+          <a href="mailto:tjrains2003@gmail.com" className="contact-btn">
+            Email Me
+          </a>
+
+          <a
+            href="https://github.com/Tjrains"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-btn outline"
+          >
+            GitHub
+          </a>
+        </div>
       </section>
     </main>
   );

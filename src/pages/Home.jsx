@@ -48,7 +48,11 @@ function Home() {
         </div>
       </section>
 
-      <section id="about" className="about-section">
+      <section
+        id="about"
+        className="about-section"
+        style={{ backgroundImage: `url(${aboutImage})` }}
+      >
         <div className="about-overlay">
           <div className="about-card">
             <h2>About Me</h2>

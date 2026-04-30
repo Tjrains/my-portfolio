@@ -33,6 +33,17 @@ function ProjectPost() {
       <p className="project-post-text">{project.fullDescription}</p>
     </main>
   );
+
+  {project.github && (
+    <a
+      href={project.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="github-button"
+    >
+      View on GitHub
+    </a>
+  )}
 }
 
 export default ProjectPost;

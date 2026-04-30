@@ -12,7 +12,8 @@ export const projects = [
     fullDescription: `This personal website was built with React and Vite.
 
 It includes a homepage, project cards, blog posts, and individual pages for more detailed content. I focused on clean layout, responsive design, and consistent styling across the site.`,
-  },
+    github: "https://github.com/Tjrains/my-portfolio"
+},
   {
     id: 2,
     slug: "draftbots",
@@ -22,6 +23,7 @@ It includes a homepage, project cards, blog posts, and individual pages for more
     fullDescription: `DraftBots is a website concept for a fictional robot sports betting platform.
 
 The goal was to practice layout design, navigation, and presenting information clearly for a themed web app.`,
+    github: "https://github.com/Tjrains/CIS-444-DraftBots-Website"
   },
   {
     id: 3,
@@ -32,5 +34,6 @@ The goal was to practice layout design, navigation, and presenting information c
     fullDescription: `Soccer Bot is a robotics project where the robot tracks a ball, moves around the field, and attempts to score.
 
 The project involves object tracking, movement logic, state machines, and tuning robot behavior for real-world conditions.`,
+    github: "https://github.com/BruceThomp/CAPSTONE"
   },
 ];

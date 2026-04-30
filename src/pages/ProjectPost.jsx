@@ -28,22 +28,26 @@ function ProjectPost() {
         src={project.image}
         alt={project.title}
         className="project-post-image"
+        loading="lazy"
       />
 
-      <p className="project-post-text">{project.fullDescription}</p>
+      <p className="project-post-text">
+        {project.fullDescription}
+      </p>
+
+      {/* ✅ GitHub Button (now renders correctly) */}
+      {project.github && (
+        <a
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-button"
+        >
+          View on GitHub
+        </a>
+      )}
     </main>
   );
-
-  {project.github && (
-    <a
-      href={project.github}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="github-button"
-    >
-      View on GitHub
-    </a>
-  )}
 }
 
 export default ProjectPost;

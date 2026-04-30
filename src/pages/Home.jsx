@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
+import { projects } from "../projects";
 import heroImage from "../assets/hero.jpg";
 
 function Home() {
@@ -55,21 +56,28 @@ function Home() {
         </p>
       </section>
 
-      <section id="projects" className="section">
+      <section id="projects" className="section projects-section">
         <h2>Projects</h2>
+
         <div className="projects-grid">
-          <ProjectCard
-            title="Personal Website"
-            desc="A React portfolio site that showcases my projects, blog posts, and design style."
-          />
-          <ProjectCard
-            title="DraftBots"
-            desc="A website concept for a fictional robot sports betting platform."
-          />
-          <ProjectCard
-            title="Soccer Bot"
-            desc="A robot car project focused on tracking, movement logic, and autonomous play."
-          />
+          {projects.map((project) => (
+            <Link
+              to={`/projects/${project.slug}`}
+              className="project-card"
+              key={project.id}
+            >
+              <img
+                src={project.image}
+                alt={project.title}
+                className="project-card-image"
+              />
+
+              <div className="project-card-content">
+                <h3>{project.title}</h3>
+                <p>{project.shortDescription}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -79,15 +87,6 @@ function Home() {
         <p>GitHub: github.com/Tjrains</p>
       </section>
     </main>
-  );
-}
-
-function ProjectCard({ title, desc }) {
-  return (
-    <div className="project-card">
-      <h3>{title}</h3>
-      <p>{desc}</p>
-    </div>
   );
 }
 

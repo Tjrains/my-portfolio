@@ -24,7 +24,7 @@ function Home() {
         <div className="home-hero-content">
           <p className="home-hero-tag">Aspiring Web Developer</p>
           <h1>
-            I’m Tyler Rains
+            Tyler Rains
             <span>Building clean and creative web experiences</span>
           </h1>
           <p className="home-hero-text">
@@ -58,8 +58,12 @@ function Home() {
             <h2>About Me</h2>
             <div className="section-divider"></div>
             <p>
-              I’m a student learning web development. I love building things with code
-              and exploring new technologies. Currently studying at Cal State San Marcos.
+              I’m a student about to graduate from Cal State San Marcos with a Bachelor's
+              in computer science. I enjoy working with computers and recently working with
+              data has become an interest of mine. I have built several computers and have
+              worked on lots of different projects while at school. I also enjoy being outdoors,
+              I rock climb with the school club and have set a goal of visiting every national
+              park. I do it by roadtip and I have visited over 20 parks so far.
             </p>
           </div>
         </div>

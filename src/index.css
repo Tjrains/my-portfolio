@@ -76,7 +76,7 @@ body {
 }
 
 .project-card {
-  background: #ffffff; /* 👈 make cards white */
+  background: #ffffff;
   border-radius: 14px;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -302,14 +302,12 @@ body {
   color: #735751;
 }
 
-/* Layout */
 .contact-links {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
 
-/* Card style */
 .contact-card {
   flex: 1;
   min-width: 240px;
@@ -328,14 +326,12 @@ body {
   transition: all 0.2s ease;
 }
 
-/* Hover effect */
 .contact-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.08);
   border-color: #bF4342;
 }
 
-/* Text */
 .contact-card h3 {
   margin: 0;
   color: #bF4342;
@@ -402,14 +398,14 @@ body {
   
   .nav-links {
     display: flex;
-    gap: 0.75rem; /* replaces margin */
+    gap: 0.75rem;
     margin-left: 0;
   }
 
   .nav-links a {
-    margin-left: 0; /* REMOVE the old spacing */
+    margin-left: 0;
     font-size: 0.85rem;
-    white-space: nowrap; /* prevents wrapping weirdness */
+    white-space: nowrap; 
   }
 
   .home-hero {

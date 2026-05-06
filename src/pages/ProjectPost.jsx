@@ -35,7 +35,6 @@ function ProjectPost() {
         {project.fullDescription}
       </p>
 
-      {/* ✅ GitHub Button (now renders correctly) */}
       {project.github && (
         <a
           href={project.github}
